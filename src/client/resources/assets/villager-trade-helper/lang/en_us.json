@@ -1,0 +1,53 @@
+{
+	"villager-trade-helper.button.trade_all": "Trade All",
+	"villager-trade-helper.button.trade_all.tooltip": "Trade the selected offer over and over until the villager is out of stock, you run out of payment, or your inventory is full.",
+	"villager-trade-helper.button.trade_all.shift_hint": "Or shift-click any offer in the list.",
+	"villager-trade-helper.button.stop": "Stop",
+	"villager-trade-helper.button.stop.tooltip": "Stop trading.",
+
+	"villager-trade-helper.tooltip.shift_click": "Shift-click: trade all",
+	"villager-trade-helper.tooltip.would_trade": "%s trades: %s",
+	"villager-trade-helper.tooltip.then": "Stops when: %s",
+	"villager-trade-helper.tooltip.may_fill_up": "Your inventory may fill up first.",
+	"villager-trade-helper.tooltip.stock": "Stock: %s of %s left",
+
+	"villager-trade-helper.message.trading": "Trading… %s trades",
+	"villager-trade-helper.message.traded": "Traded %s times: %s → %s",
+	"villager-trade-helper.message.cannot_trade": "Can't trade: %s",
+
+	"villager-trade-helper.reason.out_of_stock": "villager out of stock",
+	"villager-trade-helper.reason.out_of_payment": "out of %s",
+	"villager-trade-helper.reason.inventory_full": "inventory full",
+	"villager-trade-helper.reason.stopped": "stopped",
+
+	"villager-trade-helper.hud.out_of_stock": "(sold out)",
+	"villager-trade-helper.age.now": "just now",
+	"villager-trade-helper.age.minutes": "%s min ago",
+	"villager-trade-helper.age.hours": "%s h ago",
+	"villager-trade-helper.age.days": "%s d ago",
+
+	"villager-trade-helper.hud_mode.always": "Always",
+	"villager-trade-helper.hud_mode.sneaking": "While sneaking",
+	"villager-trade-helper.hud_mode.off": "Off",
+
+	"villager-trade-helper.config.title": "Villager Trade Helper",
+	"villager-trade-helper.config.category.trading": "Trading",
+	"villager-trade-helper.config.category.display": "Display",
+	"villager-trade-helper.config.category.memory": "Remembered trades",
+	"villager-trade-helper.config.show_buttons": "Trade All button",
+	"villager-trade-helper.config.show_buttons.tooltip": "A button under the trade slots that trades the\nselected offer until the villager or you run out.",
+	"villager-trade-helper.config.shift_click_trades_all": "Shift-click an offer to trade all",
+	"villager-trade-helper.config.shift_click_trades_all.tooltip": "Shift-clicking an offer in the list trades it\nuntil the villager or you run out.\nHold Shift over an offer to see what it would do.",
+	"villager-trade-helper.config.ticks_between_trades": "Ticks between batches",
+	"villager-trade-helper.config.ticks_between_trades.tooltip": "1 is as fast as the game allows. Raise it if a\nserver's anti-cheat complains about fast clicking.",
+	"villager-trade-helper.config.chat_summary": "Summary in chat",
+	"villager-trade-helper.config.chat_summary.tooltip": "Also put \"Traded 16 times: ...\" in chat,\nnot only above the trade window.",
+	"villager-trade-helper.config.show_stock_bars": "Stock bars",
+	"villager-trade-helper.config.show_stock_bars.tooltip": "A bar along the bottom of each offer showing\nhow much the villager has left, green to red.",
+	"villager-trade-helper.config.dim_unaffordable": "Dim offers you can't pay for",
+	"villager-trade-helper.config.dim_unaffordable.tooltip": "Darken offers you don't have the items for.",
+	"villager-trade-helper.config.remember_trades": "Remember villagers' trades",
+	"villager-trade-helper.config.remember_trades.tooltip": "Save each villager's offers when you close its\ntrade screen, per world or server, to show them\nwhen you look at that villager again.",
+	"villager-trade-helper.config.hud_mode": "Show trades at the crosshair",
+	"villager-trade-helper.config.hud_mode.tooltip": "Looking at a remembered villager lists its\noffers next to the crosshair."
+}

@@ -1,0 +1,41 @@
+{
+	"schemaVersion": 1,
+	"id": "villager-trade-helper",
+	"version": "${version}",
+	"name": "Villager Trade Helper",
+	"description": "Trade All and shift-click-to-trade-all in the villager trade screen, stock bars on every offer, and a memory of what each villager sells, shown when you look at it.",
+	"authors": [
+		"ErrolMc"
+	],
+	"contact": {
+		"sources": "https://github.com/ErrolMc/mc-villager-trade-helper",
+		"issues": "https://github.com/ErrolMc/mc-villager-trade-helper/issues"
+	},
+	"license": "MIT",
+	"icon": "assets/villager-trade-helper/icon.png",
+	"environment": "client",
+	"entrypoints": {
+		"client": [
+			"com.errolmc.villagertradehelper.client.VillagerTradeHelperClient"
+		],
+		"modmenu": [
+			"com.errolmc.villagertradehelper.client.config.ModMenuIntegration"
+		]
+	},
+	"mixins": [
+		{
+			"config": "villager-trade-helper.client.mixins.json",
+			"environment": "client"
+		}
+	],
+	"depends": {
+		"fabricloader": ">=0.20.1",
+		"minecraft": "~26.3",
+		"java": ">=25",
+		"fabric-api": "*"
+	},
+	"recommends": {
+		"modmenu": "*",
+		"cloth-config": "*"
+	}
+}
